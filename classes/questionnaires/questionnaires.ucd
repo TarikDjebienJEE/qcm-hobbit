@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="2045,699" id="questionnaires" metadata="uml2-1.0" initialized="true" scrolledX="370" scrolledY="182" tag="1000" key="32303037303533312D31303030205175657374696F6E6E61697265732F746172696B">
+  <children xsi:type="editmodel:ClassEditModel" name="Questionnaire" location="15,45" size="531,200" id="questionnaires/Questionnaire" runTimeClassModel="initQuestionnaire(Ljava.lang.String;),createQuestion(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),nbPoints,setNbPoints(I),poser(),setLesQuestions(Ljava.util.List;),Questionnaire(),getLesQuestions(),lesQuestions,getNbPoints()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="171,30">
+      <children xsi:type="editmodel:AttributeEditModel" name="lesQuestions" id="questionnaires/Questionnaire#lesQuestions"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nbPoints" id="questionnaires/Questionnaire#nbPoints"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="508,120">
+      <children xsi:type="editmodel:MethodEditModel" name="Questionnaire" id="questionnaires/Questionnaire#Questionnaire()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createQuestion" id="questionnaires/Questionnaire#createQuestion(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initQuestionnaire" id="questionnaires/Questionnaire#initQuestionnaire(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="poser" id="questionnaires/Questionnaire#poser()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setLesQuestions" id="questionnaires/Questionnaire#setLesQuestions(Ljava.util.List;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLesQuestions" id="questionnaires/Questionnaire#getLesQuestions()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setNbPoints" id="questionnaires/Questionnaire#setNbPoints(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNbPoints" id="questionnaires/Questionnaire#getNbPoints()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="questionnaires/Questionnaire-Soyatec::Import->questionnaires/Question" source="//@children.0" target="//@children.2" targetEnd="//@children.0/@sourceConnections.0/@children.1" label="//@children.0/@sourceConnections.0/@children.2" sourceEnd="//@children.0/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="531,100" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,102"/>
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" location="510,119" size="49,13" locationOnWireFromSource="-3.9999999999999996" distanceFromWire="2.0000000000000018" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="YesNo" location="329,372" size="69,30" id="questionnaires/YesNo" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0" name="Question" location="632,43" size="328,245" id="questionnaires/Question" runTimeClassModel="theRightAnswer,text,nbPoints,getQuestionText(),theUserTextAnswer,isAcceptable(Ljava.lang.String;),getTheUserAnswer(),getTheRightAnswer(),getNbOfPoints(),isUserAnswerCorrect(),Question(Ljava.lang.String;Lquestionnaires.Answer;I),setTheUserTextAnswer(Ljava.lang.String;),getTheUserTextAnswer()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="169,60">
+      <children xsi:type="editmodel:AttributeEditModel" name="nbPoints" id="questionnaires/Question#nbPoints"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="text" id="questionnaires/Question#text"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="theRightAnswer" id="questionnaires/Question#theRightAnswer"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="theUserTextAnswer" id="questionnaires/Question#theUserTextAnswer"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="305,135">
+      <children xsi:type="editmodel:MethodEditModel" name="Question" id="questionnaires/Question#Question(Ljava.lang.String;Lquestionnaires.Answer;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNbOfPoints" id="questionnaires/Question#getNbOfPoints()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getQuestionText" id="questionnaires/Question#getQuestionText()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTheRightAnswer" id="questionnaires/Question#getTheRightAnswer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTheUserAnswer" id="questionnaires/Question#getTheUserAnswer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isAcceptable" id="questionnaires/Question#isAcceptable(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isUserAnswerCorrect" id="questionnaires/Question#isUserAnswerCorrect()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTheUserTextAnswer" id="questionnaires/Question#getTheUserTextAnswer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTheUserTextAnswer" id="questionnaires/Question#setTheUserTextAnswer(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="questionnaires/Question-Soyatec::Import->questionnaires/Answer" source="//@children.2" target="//@children.9" targetEnd="//@children.2/@sourceConnections.0/@children.1" label="//@children.2/@sourceConnections.0/@children.2" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="328,86" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,85"/>
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="49,13" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="AnswerFactory" location="1395,43" size="457,185" id="questionnaires/AnswerFactory" runTimeClassModel="buildMultipleChoice(Ljava.lang.String;),getMultiple_choice_separator(),getMulti_answer_separator(),getFACTORY(),MULTI_ANSWER_SEPARATOR,FACTORY,buildAnswer(Ljava.lang.String;Ljava.lang.String;),MULTIPLE_CHOICE_SEPARATOR">
+    <children xsi:type="editmodel:CompartmentEditModel" size="208,45">
+      <children xsi:type="editmodel:AttributeEditModel" name="FACTORY" id="questionnaires/AnswerFactory#FACTORY"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="MULTIPLE_CHOICE_SEPARATOR" id="questionnaires/AnswerFactory#MULTIPLE_CHOICE_SEPARATOR"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="MULTI_ANSWER_SEPARATOR" id="questionnaires/AnswerFactory#MULTI_ANSWER_SEPARATOR"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="434,90">
+      <children xsi:type="editmodel:MethodEditModel" name="buildAnswer" id="questionnaires/AnswerFactory#buildAnswer(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="buildMultipleChoice" id="questionnaires/AnswerFactory#buildMultipleChoice(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMultiple_choice_separator" id="questionnaires/AnswerFactory#getMultiple_choice_separator()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMulti_answer_separator" id="questionnaires/AnswerFactory#getMulti_answer_separator()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFACTORY" id="questionnaires/AnswerFactory#getFACTORY()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="questionnaires/AnswerFactory-Soyatec::Import->questionnaires/Answer" source="//@children.3" target="//@children.9" targetEnd="//@children.3/@sourceConnections.0/@children.1" label="//@children.3/@sourceConnections.0/@children.2" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,85" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="219,84"/>
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="49,13" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="MultipleChoiceAnswer" location="834,524" size="258,155" id="questionnaires/MultipleChoiceAnswer" runTimeClassModel="accept(Ljava.lang.String;),getThePropositions(),instruction(),thePropositions,build(Ljava.lang.String;),MultipleChoiceAnswer(Ljava.lang.String;Ljava.util.List;),isCorrect(Ljava.lang.String;),createMyAnswerPanel()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="168,15">
+      <children xsi:type="editmodel:AttributeEditModel" name="thePropositions" id="questionnaires/MultipleChoiceAnswer#thePropositions"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="235,90">
+      <children xsi:type="editmodel:MethodEditModel" name="isCorrect" id="questionnaires/MultipleChoiceAnswer#isCorrect(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getThePropositions" id="questionnaires/MultipleChoiceAnswer#getThePropositions()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="accept" id="questionnaires/MultipleChoiceAnswer#accept(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createMyAnswerPanel" id="questionnaires/MultipleChoiceAnswer#createMyAnswerPanel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="instruction" id="questionnaires/MultipleChoiceAnswer#instruction()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="build" id="questionnaires/MultipleChoiceAnswer#build(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="questionnaires/TextAnswer&lt;-questionnaires/MultipleChoiceAnswer" source="//@children.4" target="//@children.6" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="191,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="66,125"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="NumericalAnswer" location="1739,344" size="286,125" id="questionnaires/NumericalAnswer" runTimeClassModel="accept(Ljava.lang.String;),instruction(),build(Ljava.lang.String;),createMyAnswerPanel(),NumericalAnswer(Ljava.lang.Integer;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="263,75">
+      <children xsi:type="editmodel:MethodEditModel" name="NumericalAnswer" location="1695,367" id="questionnaires/NumericalAnswer#NumericalAnswer(Ljava.lang.Integer;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="accept" id="questionnaires/NumericalAnswer#accept(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createMyAnswerPanel" id="questionnaires/NumericalAnswer#createMyAnswerPanel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="instruction" id="questionnaires/NumericalAnswer#instruction()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="build" id="questionnaires/NumericalAnswer#build(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="questionnaires/Answer&lt;-questionnaires/NumericalAnswer" source="//@children.5" target="//@children.8/@sourceConnections.0" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="143,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="219,153"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.0" name="TextAnswer" location="959,337" size="258,125" id="questionnaires/TextAnswer" runTimeClassModel="accept(Ljava.lang.String;),instruction(),build(Ljava.lang.String;),createMyAnswerPanel(),TextAnswer(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="235,75">
+      <children xsi:type="editmodel:MethodEditModel" name="TextAnswer" id="questionnaires/TextAnswer#TextAnswer(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="accept" id="questionnaires/TextAnswer#accept(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createMyAnswerPanel" id="questionnaires/TextAnswer#createMyAnswerPanel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="instruction" id="questionnaires/TextAnswer#instruction()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="build" id="questionnaires/TextAnswer#build(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="questionnaires/Answer&lt;-questionnaires/TextAnswer" source="//@children.6" target="//@children.8/@sourceConnections.0" targetEnd="//@children.6/@sourceConnections.0/@children.1" sourceEnd="//@children.6/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="128,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="36,170"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="YesNoAnswer" location="1365,343" size="260,140" id="questionnaires/YesNoAnswer" runTimeClassModel="accept(Ljava.lang.String;),instruction(),build(Ljava.lang.String;),YesNoAnswer(Lquestionnaires.YesNo;),isCorrect(Ljava.lang.String;),createMyAnswerPanel()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="237,90">
+      <children xsi:type="editmodel:MethodEditModel" name="YesNoAnswer" id="questionnaires/YesNoAnswer#YesNoAnswer(Lquestionnaires.YesNo;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="accept" id="questionnaires/YesNoAnswer#accept(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createMyAnswerPanel" id="questionnaires/YesNoAnswer#createMyAnswerPanel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="instruction" id="questionnaires/YesNoAnswer#instruction()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="build" id="questionnaires/YesNoAnswer#build(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isCorrect" id="questionnaires/YesNoAnswer#isCorrect(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="questionnaires/Answer&lt;-questionnaires/YesNoAnswer" source="//@children.7" target="//@children.8/@sourceConnections.0" targetEnd="//@children.7/@sourceConnections.0/@children.1" sourceEnd="//@children.7/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="130,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="122,170"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="MultiAnswer" location="509,329" size="287,140" id="questionnaires/MultiAnswer" runTimeClassModel="accept(Ljava.lang.String;),instruction(),MultiAnswer(Ljava.util.List;),build(Ljava.lang.String;),isCorrect(Ljava.lang.String;),createMyAnswerPanel()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="264,90">
+      <children xsi:type="editmodel:MethodEditModel" name="MultiAnswer" id="questionnaires/MultiAnswer#MultiAnswer(Ljava.util.List;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="accept" id="questionnaires/MultiAnswer#accept(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createMyAnswerPanel" id="questionnaires/MultiAnswer#createMyAnswerPanel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="instruction" id="questionnaires/MultiAnswer#instruction()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isCorrect" id="questionnaires/MultiAnswer#isCorrect(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="build" id="questionnaires/MultiAnswer#build(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.7/@sourceConnections.0 //@children.5/@sourceConnections.0 //@children.6/@sourceConnections.0" autoLocated="true" id="questionnaires/Answer&lt;-questionnaires/MultiAnswer" source="//@children.8" target="//@children.9" targetEnd="//@children.8/@sourceConnections.0/@children.1" sourceEnd="//@children.8/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="143,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="109,170" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.0 //@children.2/@sourceConnections.0 //@children.3/@sourceConnections.0" name="Answer" location="1083,44" size="219,170" id="questionnaires/Answer" runTimeClassModel="getValue(),accept(Ljava.lang.String;),instruction(),value,Answer(LT;),isCorrect(Ljava.lang.String;),createMyAnswerPanel(),toString()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="56,15">
+      <children xsi:type="editmodel:AttributeEditModel" name="value" id="questionnaires/Answer#value"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="196,105">
+      <children xsi:type="editmodel:MethodEditModel" name="Answer" id="questionnaires/Answer#Answer(LT;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="accept" id="questionnaires/Answer#accept(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createMyAnswerPanel" id="questionnaires/Answer#createMyAnswerPanel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getValue" id="questionnaires/Answer#getValue()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="instruction" id="questionnaires/Answer#instruction()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isCorrect" id="questionnaires/Answer#isCorrect(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="questionnaires/Answer#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Main" location="90,329" size="157,65" id="questionnaires/Main" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="134,15">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="questionnaires/Main#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=1;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+</editmodel:ClassDiagramEditModel>
